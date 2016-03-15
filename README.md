@@ -27,5 +27,6 @@ Next steps
 
 The next steps should be:
 
+  - Add test calling external service
   - Compose with *acceptance test container* and a *functional container*
   - Change the acceptance test container, to build the test in another language (¿JS?)
