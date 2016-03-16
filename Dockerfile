@@ -8,4 +8,4 @@ ADD target/acceptance-test.jar \
 ADD src/main/resources/* \
     /test/features/
 
-ENTRYPOINT java -cp "/test/lib/*" cucumber.api.cli.Main --glue com.josemorenoesteban.zooplus.challenge.acceptance /test/features/
+ENTRYPOINT java -ea -cp "/test/lib/*" cucumber.api.cli.Main --glue com.josemorenoesteban.zooplus.challenge.acceptance /test/features/
